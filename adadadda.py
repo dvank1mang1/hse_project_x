@@ -1,10 +1,10 @@
 a = int(input())
 f = []
-f.append(str(a))
+f.append(a)
 while a!=0:
     a = int(input())
-    f.append(str(a))
-f = f.remove('0')
+    f.append(a)
+f = f.remove
 d=[]
 for i in range(len(f)-2):
     if int(f[i]) > int(f[i - 1]) and int(f[i]) > int(f[i + 1]) and i != (len(f) - 1) and i != 0:
